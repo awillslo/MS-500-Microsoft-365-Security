@@ -35,31 +35,33 @@ In this exercise you will create a Data Loss Prevention policy in the Security &
 
 13. In the list of search results, select the **U.S. Social Security Number (SSN)** check box, and then select **Add**.
 
-14. Click **Add Condition** and select **Content is shared from Microsoft 365**.
+14. In the U.S. Social Security Number (SSN) row, change the **Instance count** from **1** to **2**.
 
-15. In the field below this, verify that **only with people inside my organization** is displayed.
+16. Click **Add Condition** and select **Content is shared from Microsoft 365**.
 
-16. Scroll down to **Actions** section.
+17. In the field below this, verify that **only with people inside my organization** is displayed.
 
-17. Click **+ Add an Action**.
+18. Scroll down to **Actions** section.
 
-18. Select **Restrict access or encrypt the content in Microsoft 365 locations**.
+19. Click **+ Add an Action**.
 
-19. Check the box **Restrict access or encrypt the content in Microsoft 365 locations** and select **Block everyone**.
+20. Select **Restrict access or encrypt the content in Microsoft 365 locations**.
 
-20. Scroll down to **Incident reports**.
+21. Check the box **Restrict access or encrypt the content in Microsoft 365 locations** and select **Block everyone**.
 
-21. Select **Medium** in the field **Use this severity level in admin alerts and reports**.
+22. Scroll down to **Incident reports**.
 
-22. Move the slider bar for **Send and alert to admins when a rule match occurs** to **On**.
+23. Select **Medium** in the field **Use this severity level in admin alerts and reports**.
 
-23. Select **Save**.
+24. Move the slider bar for **Send and alert to admins when a rule match occurs** to **On**.
 
-24 Click **Next**.
+25. Select **Save**.
 
-24. On the **Test or turn on policy** page select **Turn it on right away** and select **Next**.
+26. Click **Next**.
 
-25. Click **Submit** and then select **Done**.
+27. On the **Test or turn on policy** page select **Turn it on right away** and select **Next**.
+
+28. Click **Submit** and then select **Done**.
 
 You have now created a DLP policy that scans for US Social Security numbers in emails and documents that are sent or shared in your organization.
 
