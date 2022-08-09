@@ -87,7 +87,7 @@ As part of your pilot project for Adatum, you will create a retention policy in 
 
 4. On the **Name your policy** page, type `Exchange Preservation` in the **Name** field and select **Next**.
 
-5. In the **Choose the type of retention policy to create** page two options are available **Adaptive** and **Static**, if you select **Static** and click **Next**, **Choose locations to apply the policy** page will open, deselect all sliders except for **Exchange email.** and click **Next**.
+5. In the **Choose the type of retention policy to create** page two options are available **Adaptive** and **Static**. Select **Static** and click **Next**. **Choose locations to apply the policy** page will open, deselect all sliders except for **Exchange email.** and click **Next**.
 
 6. On the **Decide if you want to retain content, delete it, or both** page, leave the **Retain items for a specific period** option selected, and **7 years**. Do not change these fields. However, in the **Start the retention period based on** field, it currently indicates **when it was created**. Select the drop-down arrow for this field and select **when items were last modified**. 
 
