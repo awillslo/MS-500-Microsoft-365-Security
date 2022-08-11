@@ -55,11 +55,11 @@ In this exercise you will create a Data Loss Prevention policy in the Security &
 
 23. Select **Save**.
 
-24 Click **Next**.
+24. Click **Next**.
 
-24. On the **Test or turn on policy** page select **Turn it on right away** and select **Next**.
+25. On the **Test or turn on policy** page select **Turn it on right away** and select **Next**.
 
-25. Click **Submit** and then select **Done**.
+26. Click **Submit** and then select **Done**.
 
 You have now created a DLP policy that scans for US Social Security numbers in emails and documents that are sent or shared in your organization.
 
