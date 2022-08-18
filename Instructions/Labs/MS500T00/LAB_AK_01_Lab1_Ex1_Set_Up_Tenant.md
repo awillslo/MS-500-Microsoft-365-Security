@@ -1,3 +1,10 @@
+---
+lab:
+    title: 'Lab1: Exercise 1 - Set up your Microsoft 365 tenant '
+    type: 'Answer Key'
+    module: 'Module 1: User and Group Management'
+---
+
 # Module 1 - Lab 1 - Exercise 1 - Set up your Microsoft 365 tenant 
 
 In the following lab exercises you will take on the role of Holly Dickson, Adatum Corporation’s Security Administrator. Adatum runs their legacy applications (such as Microsoft Exchange) in an on-premises deployment. However, they recently subscribed to Microsoft 365, thereby creating a hybrid deployment in which they must synchronize their on-premises and cloud deployments. 
