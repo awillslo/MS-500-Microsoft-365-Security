@@ -1,6 +1,13 @@
-#Required Lab Setup
+---
+lab:
+    title: 'Lab0: Required Lab Setup '
+    type: 'Answer Key'
+    module: 'Module 0: Lab Setup'
+---
 
-##Lab Setup
+# Required Lab Setup
+
+## Lab Setup
 
 Certain features within the Microsoft 365 Admin Center are no longer compatible with Internet Explorer. For that reason we suggest using Microsoft Edge as an alternative.
 

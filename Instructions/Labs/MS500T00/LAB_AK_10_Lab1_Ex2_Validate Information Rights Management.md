@@ -1,3 +1,10 @@
+---
+lab:
+    title: 'Lab1: Exercise 2 - Validate Information Rights Management  '
+    type: 'Answer Key'
+    module: 'Module 10: Rights Management and Encryption'
+---
+
 # Module 10 - Lab 1 - Exercise 2 - Validate Information Rights Management 
 
 In this exercise, you will learn how to validate Information Rights Management for both Exchange Online and SharePoint Online.

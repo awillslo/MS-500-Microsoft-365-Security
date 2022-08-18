@@ -1,3 +1,10 @@
+---
+lab:
+    title: 'Lab1: Exercise 1 - Improve your secure score in Microsoft 365 Security Center '
+    type: 'Answer Key'
+    module: 'Module 4: Security in Microsoft 365'
+---
+
 # Module 4: Lab 1 - Exercise 1 - Improve your secure score in Microsoft 365 Security Center
 
 You are the Global Admin Holly Dickson, and you are signed into Microsoft 365.

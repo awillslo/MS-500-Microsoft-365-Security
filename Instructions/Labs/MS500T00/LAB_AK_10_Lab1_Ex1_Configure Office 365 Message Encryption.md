@@ -1,3 +1,10 @@
+---
+lab:
+    title: 'Lab1: Exercise 1 - Configure Office 365 Message Encryption '
+    type: 'Answer Key'
+    module: 'Module 10: Rights Management and Encryption'
+---
+
 # Module 10 - Lab 1 - Exercise 1 - Configure Office 365 Message Encryption
 
 

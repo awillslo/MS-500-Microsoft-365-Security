@@ -1,3 +1,10 @@
+---
+lab:
+    title: 'Lab1: Exercise 1 - Conduct a Spear phishing attack '
+    type: 'Answer Key'
+    module: 'Module 6: Threat Management'
+---
+
 # Module 6 - Lab 1 - Exercise 1 - Conduct a Spear phishing attack
 
 

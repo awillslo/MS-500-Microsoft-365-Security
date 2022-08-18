@@ -1,3 +1,10 @@
+---
+lab:
+    title: 'Lab2: Exercise 1 - Configure Self-service password reset (SSPR) for user accounts in Azure AD '
+    type: 'Answer Key'
+    module: 'Module 1: User and Group Management'
+---
+
 # Module 1 - Lab 2 - Exercise 1 - Configure Self-service password reset (SSPR) for user accounts in Azure AD
 
 

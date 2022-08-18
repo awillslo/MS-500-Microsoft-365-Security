@@ -1,3 +1,10 @@
+---
+lab:
+    title: 'Lab1: Exercise 1 - Investigate Your Microsoft 365 Data '
+    type: 'Answer Key'
+    module: 'Module 14: Discover and Respond'
+---
+
 # Module 14 - Lab 1 - Exercise 1 - Investigate Your Microsoft 365 Data
 
 

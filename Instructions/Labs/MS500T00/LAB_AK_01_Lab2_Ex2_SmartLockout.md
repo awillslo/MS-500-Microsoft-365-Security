@@ -1,3 +1,10 @@
+---
+lab:
+    title: 'Lab2: Exercise 2 - Deploy Azure AD Smart Lockout '
+    type: 'Answer Key'
+    module: 'Module 1: User and Group Management'
+---
+
 # Module 1 - Lab 2 - Exercise 2 - Deploy Azure AD Smart Lockout 
 
 Adatum’s CTO has asked you to deploy Azure AD Smart Lockout, which assists in locking out bad actors who are trying to guess your users’ passwords or use brute-force methods to get admitted into your network. Smart Lockout can recognize sign-ins coming from valid users and treat them differently than sign-ins from attackers and other unknown sources. 

@@ -1,3 +1,10 @@
+---
+lab:
+    title: 'Lab1: Exercise 2 - Test DLP Policies '
+    type: 'Answer Key'
+    module: 'Module 11: Data Loss Prevention'
+---
+
 # Module 11 - Lab 1 - Exercise 2 - Test DLP Policies
 
 

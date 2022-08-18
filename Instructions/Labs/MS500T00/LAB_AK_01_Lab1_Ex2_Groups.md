@@ -1,3 +1,10 @@
+---
+lab:
+    title: 'Lab1: Exercise 2 - Manage users and groups  '
+    type: 'Answer Key'
+    module: 'Module 1: User and Group Management'
+---
+
 # Module 1 - Lab 1 - Exercise 2 - Manage users and groups 
 
 In the following lab exercise, you will take on the role of Holly Dickson, Adatum Corporation’s Security Administrator. In this exercise, you will perform several user and group management functions within Microsoft 365. You will create two Office 365 groups and assign existing Microsoft 365 users as members of those groups. You will then delete one of the groups and then use PowerShell to recover the deleted group.
