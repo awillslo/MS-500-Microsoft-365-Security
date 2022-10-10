@@ -34,7 +34,7 @@ In this task, you will add the URL **http://tailspintoys.com** to the company-wi
 
 5. In the **Tenant Allow/Block List** window, select **URLs** and then click **+ Block**.
 
-6. In the **Block URLs** window, under the **Add URLs with wildcards** section, you can enter any URLs that you want to have blocked. For this test lab, in the **Enter a valid URL** field, enter `http://tailspintoys.com` to add it to the policy.
+6. In the **Block URLs** window, under the **Add URLs with wildcards** section, you can enter any URLs that you want to have blocked. For this test lab, in the **Enter a valid URL** field, enter `tailspintoys.com` to add it to the policy.
 
 7. Select **Add**.
 
@@ -42,25 +42,27 @@ In this task, you will add the URL **http://tailspintoys.com** to the company-wi
 
 8. Select the **+ Create** to add a new recipient policy.
 
-9. On the **Name your policy** pane, enter a unique name to your lab session `Unique Name` in the **Name** field. Click **Next**.
+9. On the **Name your policy** pane, enter a unique name to your lab session `i.e. mySafeLinkspolicy` in the **Name** field. Click **Next**.
 
 10. On the **Users and domains** pane, enter `All Company`in the **Group** field, select it from the list. Click **Next**.
 
 11. On the **URL & click protection settings** pane, select the following options and click **Next**:
 
-    - Under **Action on potentially malicious URLs within Emails** select **On: Safe Links checks a list of known, malicious links when users click links in email. URLs are rewritten by default**.
+    - Under **Email**, if need be, select **On: Safe Links checks a list of known, malicious links when users click links in email. URLs are rewritten by default**.
 
-    - Select the check box next to **Apply real-time URL scanning for suspicious links and links that point to files**.
+    - If need be, Select the check box next to **Apply real-time URL scanning for suspicious links and links that point to files**.
 
-    - Select the check box next to **Apply safe links to email messages sent within the organization**.
+    - If need be, Select the check box next to **Apply safe links to email messages sent within the organization**.
 
-12. Under **Action for potentially malicous URLs in Microsoft Teams** select **On: Safe Links checks a list of known, malicous links when users click links in Microsoft Teams. URLs are not rewritten**.
+12. Under **Teams** if need be, select **On: Safe Links checks a list of known, malicous links when users click links in Microsoft Teams. URLs are not rewritten**.
 
-13. On the **Notification** pane, leave the default notification text selected. Click **Next**.
+13. Leave all other settings as is. 
 
-14. On the **Review** pane, select **Submit** to create the policy.
+15. On the **Notification** pane, leave the default notification text selected. Click **Next**.
 
-15. Leave the Office 365 Security &amp; Compliance tab open for use in a later task.
+16. On the **Review** pane, select **Submit** to create the policy.
+
+17. Leave the Office 365 Security &amp; Compliance tab open for use in a later task.
 
 ### Task 2 – Validate the Safe Links Policy
 
@@ -138,7 +140,7 @@ In this task, you will, and you&#39;ll create an ATP Safe Attachments policy tha
 
 8. In the **Users and domains**, enter `All Company` in the **Groups** field then select **Next**.
 
-9. Under the **Safe attachments unknown malware response** section, select **Dynamic Delivery** (this option will still send the email but will hold the attachment until it has been scanned and marked acceptable).
+9. Under the **Safe attachments unknown malware response** section, select **Dynamic Delivery (Preview messages)** (this option will still send the email but will hold the attachment until it has been scanned and marked acceptable).
 
 10. Under the **Redirect messages with detected attachments** section, select **Enable redirect**.
 
