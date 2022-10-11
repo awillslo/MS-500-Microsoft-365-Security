@@ -95,7 +95,7 @@ You will begin by having Holly create a new SharePoint site collection, configur
 
 12. In the **We’ve got a new look** window, if it appears, select **NOT NOW**.
 
-13. In the **Documents** page for the **Marketing** site, at the top right, select the **gear** (**Settings)** icon and then select **Library settings**. 
+13. In the **Documents** page for the **Marketing** site, at the top right, select the **gear** (**Settings)** icon and then select **Library settings**. Click **More library settings**. 
 
 14. On the **Documents&gt;Settings** page, under **Permissions and Management**, select **Information Rights Management**. 
 
