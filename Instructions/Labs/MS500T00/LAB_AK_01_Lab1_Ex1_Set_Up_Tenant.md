@@ -234,7 +234,7 @@ In a later lab, you will create Alert Policies using the Security and Compliance
 
 3. In the **Office 365 Security &amp; Compliance center**, in the left navigation pane, select **Search**, and then under it, select **Audit log search**. It redirects to the page `https://compliance.microsoft.com/auditlogsearch`.
 
-4. In the **Audit log search** window, at the top right of the page, select **Turn on auditing,** and then confirm the **Your organization settings need to be updated. Do you want to continue?** question by selecting **Yes**. Note: 'Audit Log' will be turned on by default for MS 365 and Office 365 Enterprise organizations. If there is no prompt to 'Turn On' audit log on that page, that means 'Audit Log' has been turned on by default.
+4. In the **Audit log search** window, at the top right of the page, select **Start recording user and admin activity** and then confirm the **Your organization settings need to be updated. Do you want to continue?** question by selecting **Yes**. Note: 'Audit Log' will be turned on by default for MS 365 and Office 365 Enterprise organizations. If there is no prompt to 'Turn On' audit log on that page, that means 'Audit Log' has been turned on by default.
 
 5. Leave the **LON-DC1** VM and the Security and Compliance Center open.
 
