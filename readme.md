@@ -4,8 +4,7 @@ This repository includes lab instructions for the following courses:
 
 - MS-500T00: Microsoft 365 Security Administration
  
-
-**[Download Latest Student Handbook and AllFiles Content](../../releases/latest)**
+- **[Link to labs (HTML format)](https://microsoftlearning.github.io/MS-500-Microsoft-365-Security/)**
 
 **Are you a MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
 

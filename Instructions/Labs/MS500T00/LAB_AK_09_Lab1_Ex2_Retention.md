@@ -1,3 +1,10 @@
+---
+lab:
+    title: 'Lab1: Exercise 2 - Configure retention tags and policies   '
+    type: 'Answer Key'
+    module: 'Module 9: Information Protection and Governance'
+---
+
 # Module 9 - Lab 1 - Exercise 2 - Configure retention tags and policies  
 
 In this exercise, you will configure retention tags and policies, and you will implement archiving with MRM retention tags. 

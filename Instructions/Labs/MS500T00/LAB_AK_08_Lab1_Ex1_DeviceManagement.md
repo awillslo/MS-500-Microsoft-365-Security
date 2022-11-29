@@ -1,3 +1,10 @@
+---
+lab:
+    title: 'Lab1: Exercise 1 - Enable device management '
+    type: 'Answer Key'
+    module: 'Module 8: Mobility'
+---
+
 # Module 8 - Lab 1 - Exercise 1 - Enable device management
 
 

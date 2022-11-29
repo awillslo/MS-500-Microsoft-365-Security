@@ -1,3 +1,10 @@
+---
+lab:
+    title: 'Lab1: Exercise 1 - Set up your Microsoft 365 tenant '
+    type: 'Answer Key'
+    module: 'Module 1: User and Group Management'
+---
+
 # Module 1 - Lab 1 - Exercise 1 - Set up your Microsoft 365 tenant 
 
 In the following lab exercises you will take on the role of Holly Dickson, Adatum Corporation’s Security Administrator. Adatum runs their legacy applications (such as Microsoft Exchange) in an on-premises deployment. However, they recently subscribed to Microsoft 365, thereby creating a hybrid deployment in which they must synchronize their on-premises and cloud deployments. 
@@ -114,7 +121,7 @@ Holly Dickson is Adatum’s Security Administrator. Since she doesn’t have a p
 
 **Important:** As a best practice in your real-world deployments, you should always write down the first global admin account’s credentials (in this lab, the MOD Administrator) and store it away for security reasons. This account is a non-personalized identity that owns the highest privileges possible in a tenant. It is **not** MFA activated (because it is not personalized) and the password for this account is typically shared among several users. Therefore, this first global admin is a perfect target for attacks, so it is recommended to create personalized service admins and keep as few global admins as possible. For those global admins that you do create, they should each be mapped to a single identity, and they should each have MFA enforced.
 
-1. On the **LON-DC1** VM, the **Microsoft 365 admin center** should still be open in Internet Explorer from the prior task. In the **Microsoft 365 admin center**, in the left navigation pane, select **Users** and then select **Active users**. 
+1. On the **LON-DC1** VM, the **Microsoft 365 admin center** should still be open in Microsoft Edge from the prior task. In the **Microsoft 365 admin center**, in the left navigation pane, select **Users** and then select **Active users**. 
 
 2. In the **Active users** list, you will see the default **MOD Administrator** account as well as some other user accounts. Since you’re taking on the role of Holly Dickson in this lab scenario, you will create a user account for yourself, and you will assign yourself the Microsoft 365 role of Global Administrator. 
 
@@ -227,7 +234,7 @@ In a later lab, you will create Alert Policies using the Security and Compliance
 
 3. In the **Office 365 Security &amp; Compliance center**, in the left navigation pane, select **Search**, and then under it, select **Audit log search**. It redirects to the page `https://compliance.microsoft.com/auditlogsearch`.
 
-4. In the **Audit log search** window, at the top right of the page, select **Turn on auditing,** and then confirm the **Your organization settings need to be updated. Do you want to continue?** question by selecting **Yes**. Note: 'Audit Log' will be turned on by default for MS 365 and Office 365 Enterprise organizations. If there is no prompt to 'Turn On' audit log on that page, that means 'Audit Log' has been turned on by default.
+4. In the **Audit log search** window, at the top right of the page, select **Start recording user and admin activity** and then confirm the **Your organization settings need to be updated. Do you want to continue?** question by selecting **Yes**. Note: 'Audit Log' will be turned on by default for MS 365 and Office 365 Enterprise organizations. If there is no prompt to 'Turn On' audit log on that page, that means 'Audit Log' has been turned on by default.
 
 5. Leave the **LON-DC1** VM and the Security and Compliance Center open.
 

@@ -1,3 +1,10 @@
+---
+lab:
+    title: 'Lab2: Exercise 4 - Directory Roles (General) '
+    type: 'Answer Key'
+    module: 'Module 3: Identity and Access Management'
+---
+
 # Module 3 - Lab 2 - Exercise 4 - Directory Roles (General)
 
 

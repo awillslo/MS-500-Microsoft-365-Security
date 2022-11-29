@@ -1,3 +1,10 @@
+---
+lab:
+    title: 'Lab1: Exercise 2 -  MFA Conditional Access (Complete an Azure Multi-Factor Authentication pilot roll out) '
+    type: 'Answer Key'
+    module: 'Module 3: Identity and Access Management'
+---
+
 # Module 3 - Lab 1 - Exercise 2 -  MFA Conditional Access (Complete an Azure Multi-Factor Authentication pilot roll out)
 
 

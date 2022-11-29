@@ -1,3 +1,10 @@
+---
+lab:
+    title: 'Lab1: Exercise 2 - Validate Information Rights Management  '
+    type: 'Answer Key'
+    module: 'Module 10: Rights Management and Encryption'
+---
+
 # Module 10 - Lab 1 - Exercise 2 - Validate Information Rights Management 
 
 In this exercise, you will learn how to validate Information Rights Management for both Exchange Online and SharePoint Online.
@@ -88,7 +95,7 @@ You will begin by having Holly create a new SharePoint site collection, configur
 
 12. In the **We’ve got a new look** window, if it appears, select **NOT NOW**.
 
-13. In the **Documents** page for the **Marketing** site, at the top right, select the **gear** (**Settings)** icon and then select **Library settings**. 
+13. In the **Documents** page for the **Marketing** site, at the top right, select the **gear** (**Settings)** icon and then select **Library settings**. Click **More library settings**. 
 
 14. On the **Documents&gt;Settings** page, under **Permissions and Management**, select **Information Rights Management**. 
 

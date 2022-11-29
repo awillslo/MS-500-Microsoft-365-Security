@@ -1,3 +1,10 @@
+---
+lab:
+    title: 'Lab1: Exercise 1 - MFA Authentication Pilot (Require MFA for specific apps with Azure Active Directory conditional access) '
+    type: 'Answer Key'
+    module: 'Module 3: Identity and Access Management'
+---
+
 # Module 3 - Lab 1 - Exercise 1 -  MFA Authentication Pilot (Require MFA for specific apps with Azure Active Directory conditional access)
 
 ### Task 1: Create your conditional access policy 

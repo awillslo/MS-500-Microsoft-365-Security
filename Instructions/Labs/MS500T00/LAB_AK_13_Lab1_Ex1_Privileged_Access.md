@@ -1,3 +1,10 @@
+---
+lab:
+    title: 'Lab1: Exercise 1 - Set up privileged access management and process a request '
+    type: 'Answer Key'
+    module: 'Module 13: Insider Risk Management'
+---
+
 # Module 13 - Lab 1 - Exercise 1 - Set up privileged access management and process a request
 
 
