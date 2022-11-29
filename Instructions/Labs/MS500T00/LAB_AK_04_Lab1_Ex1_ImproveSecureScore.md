@@ -67,7 +67,7 @@ The Secure Score History view also lists specific actions you have taken and the
 
 9.  Return the browser tab with Microsoft Secure Score.
 
-10. In the Enable sef-service password reset pane in the Notes enter the following **Enabled Self-Service password reset for all users on <enter today's date>** and click **Save and close**.
+10. In the Enable self-service password reset pane in the Notes enter the following **Enabled Self-Service password reset for all users on <enter today's date>** and click **Save and close**.
 
 **Note:**  Score updates may take 24 hours to appear in your Microsoft Secure Score.  Also, partial score may be given depending on the action.  For example, this tenant includes 10 licensed users, if just two of the users were enabled for Self service password reset 1/5 points would be awarded for this action.
 
