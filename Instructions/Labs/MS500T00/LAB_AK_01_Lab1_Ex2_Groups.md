@@ -69,27 +69,27 @@ In this task, you will create two new groups and then manage the groups by assig
 
 	**Note:** there is no owner, email address, or privacy setting for Security groups
 
-19. If either of the two new groups do not appear in the **Groups** list, wait a minute or so and then select the **Refresh** option on the menu bar (to the right of **Add a group**). You may need to wait an additional few minutes for both groups to appear.
+19. If either of the two new groups do not appear in their respective tabs, wait a minute or so and then select the **Refresh** option on the menu bar (to the right of **Add a group**). You may need to wait an additional few minutes for both groups to appear.
 
 	**Note:** The IT admins group does not have a group email address because it's a Security group. Two additional group types are Mail-enabled Security groups and Distribution list groups. We did not use either of these group types in this lab because it can take up to an hour for these two types of groups to appear in the Groups list; whereas, Office 365 groups and Security groups usually take just a matter of minutes to appear. 
 
 20. You’re now ready to add members to the groups. In the list of **Groups**, select the **Inside Sales** group, which opens a window for the group. 
 
-21. In the **Inside Sales** group window, select the **Members** tab.
+21. Click the Microsoft 365 tab, select the **Inside Sales** group then select the **Members** tab.
 
-22. Under the **Members** section, you can see the two owners (Allan and Patti), but you can also see that there are zero (0) members. Select **View all and manage members** to add members to the group. 
+22. Under the **Members** section, you can see the two owners (Allan and Patti). Select the **Members** tab on the left to add members to the group. 
 
-23. In the **Inside Sales** group window, select **+ Add members**. This displays the list of current users.
+23. In the **Inside Sales** group window, select **Add members**. This displays the list of current users.
 
-24. In the list of users, select **Diego Siciliani** and **Lynne Robbins**, and then scroll to the bottom and select **Add (2)**. 
+24. Click in the **Search** field and select both **Diego Siciliani** and **Lynne Robbins**, and then scroll to the bottom and select **Add (2)**. 
 
 25. Select **Back arrow**. 
 
 26. On the **Inside Sales** window, Diego and Lynne should now appear as members of the group. Select the **X** in the upper right corner to close the window. 
 
-27. Repeat steps 19-25 to add **Isaiah Langer**, **Megan Bowen**, and **Nestor Wilke** as members of the **IT admins** group.
+27. Repeat steps 19-25 to add **Isaiah Langer**, **Megan Bowen**, and **Nestor Wilke** as members of the **IT admins** group which is in the Security tab.
 
-28. You now want to test the effect of deleting a group. In the list of **Groups,** select the vertical ellipsis icon (**More actions**) that appears to the right of the **Inside Sales** group. In the menu box that appears, select **Delete team**. 
+28. You now want to test the effect of deleting a group. In the list of **Microsoft 365** tab, select the vertical ellipsis icon (**More actions**) that appears to the right of the **Inside Sales** group. In the menu box that appears, select **Delete team**. 
 
 29. In the **Delete Inside Sales** window, select the **Delete group** button.
 
@@ -140,7 +140,7 @@ In this task, you will use Windows PowerShell to recover the Inside Sales group 
 
 5. You should now validate that the **Inside Sales** group has been recovered. To do this, go to the **Microsoft 365 Admin Center** in your Microsoft Edge browser, select **Teams & groups** from the left-hand navigation pane, and then under it select **Active Teams & groups** to display the list of groups. 
 
-6. Verify that the **Inside Sales** group has been restored and is present in the list of groups. If the Inside Sales group does not appear, wait a minute or two and then select the **Refresh** icon to the right of the URL in Microsoft Edge.
+6. Click the **Microsoft 365** tab and verify that the **Inside Sales** group has been restored and is present in the list of groups. If the Inside Sales group does not appear, wait a minute or two and then select the **Refresh** icon to the right of the URL in Microsoft Edge.
 
 7. You now want to verify that the recovery process correctly updated the group's membership. From the **Groups** windows, select the **Inside Sales** group.
 
