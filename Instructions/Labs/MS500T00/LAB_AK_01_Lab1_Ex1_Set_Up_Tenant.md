@@ -121,7 +121,7 @@ Holly Dickson is Adatum’s Security Administrator. Since she doesn’t have a p
 
 **Important:** As a best practice in your real-world deployments, you should always write down the first global admin account’s credentials (in this lab, the MOD Administrator) and store it away for security reasons. This account is a non-personalized identity that owns the highest privileges possible in a tenant. It is **not** MFA activated (because it is not personalized) and the password for this account is typically shared among several users. Therefore, this first global admin is a perfect target for attacks, so it is recommended to create personalized service admins and keep as few global admins as possible. For those global admins that you do create, they should each be mapped to a single identity, and they should each have MFA enforced.
 
-1. On the **LON-DC1** VM, the **Microsoft 365 admin center** should still be open in Internet Explorer from the prior task. In the **Microsoft 365 admin center**, in the left navigation pane, select **Users** and then select **Active users**. 
+1. On the **LON-DC1** VM, the **Microsoft 365 admin center** should still be open in Microsoft Edge from the prior task. In the **Microsoft 365 admin center**, in the left navigation pane, select **Users** and then select **Active users**. 
 
 2. In the **Active users** list, you will see the default **MOD Administrator** account as well as some other user accounts. Since you’re taking on the role of Holly Dickson in this lab scenario, you will create a user account for yourself, and you will assign yourself the Microsoft 365 role of Global Administrator. 
 
