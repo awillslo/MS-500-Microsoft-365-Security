@@ -4,6 +4,7 @@ lab:
     type: 'Answer Key'
     module: 'Module 9: Information Protection and Governance'
 ---
+** Note: The process in this lab has changed significantly due to recent portal changes and is currently being revised**
 
 # Module 9 - Lab 1 - Exercise 1 - Initialize Compliance 
 
