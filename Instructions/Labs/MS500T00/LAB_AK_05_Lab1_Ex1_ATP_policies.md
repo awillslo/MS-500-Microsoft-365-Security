@@ -68,7 +68,7 @@ In this task, you will test the Safe Links Policy that you just created that blo
 
 1. You should still be logged into your Client 1 VM (**LON-CL1**) as the **LON-CL1\Admin** account, and you should be logged into Microsoft 365 as **Holly Dickson**.
 
-2. In your **Microsoft Edge** browser, select the **Microsoft Office Home** (or go to `https://office.com`) tab and then select **Outlook.**
+2. In your **Microsoft Edge** browser, select the **Microsoft 365 Home** (or go to `https://office.com`) tab and then select **Outlook.**
 
 3. If you receive a **We updated Outlook** message, select **Not Now**, or if you see a **Welcome** message, then close it.
 

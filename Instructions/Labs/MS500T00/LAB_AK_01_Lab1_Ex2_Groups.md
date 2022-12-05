@@ -28,7 +28,7 @@ In this task, you will create two new groups and then manage the groups by assig
 
 4. In the **Sign in** window, enter **Holly@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider). Select **Next**.
 
-5. In the **Enter password** window, enter `Pa55w.rd` and then select **Sign in**.
+5. In the **Enter password** window, enter `XBo8MZiKFTstB6G` and then select **Sign in**.
 
 6. If a **Get your work done with Office 365** window appears, select the **X** to close it. 
 
@@ -110,7 +110,7 @@ In this task, you will use Windows PowerShell to recover the Inside Sales group 
 
 **NOTE:** You should have installed the Windows Azure Active Directory PowerShell Module in the prior lab.   
 
-1. If you’re not logged into the **LON-DC1** VM as **ADATUM\Administrator** and password **Pa55w.rd**, then please do so now.
+1. If you’re not logged into the **LON-DC1** VM as **ADATUM\Administrator** and password **XBo8MZiKFTstB6G**, then please do so now.
 
 2. If Windows PowerShell is still open from the previous exercise, select the **Windows PowerShell** icon on the taskbar; otherwise, you must open an elevated instance of Windows PowerShell just as you did before. Maximize your PowerShell window.
 
@@ -120,7 +120,7 @@ In this task, you will use Windows PowerShell to recover the Inside Sales group 
 	
 		‎`Connect-AzureAD`   
 
-	- A new window will appear requesting your credentials. Sign in using Holy's Microsoft 365 account of **Holly@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) and **Pa55w.rd** as the Password.  
+	- A new window will appear requesting your credentials. Sign in using Holy's Microsoft 365 account of **Holly@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) and **XBo8MZiKFTstB6G** as the Password.  
 
 	- You should then run the following command to display the repository of deleted groups (this should display the **Inside Sales** group that you earlier deleted):<br/>  
 	

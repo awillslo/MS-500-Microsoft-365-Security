@@ -30,7 +30,7 @@ In your role as Holly Dickson, Adatum’s Security Administrator, you have been 
 
 1. When the Virtual Machine opens, it opens with the Client PC VM (**LON-CL1**). You need to switch to the Domain Controller VM (**LON-DC1**).
 
-2. Log on as **ADATUM\Administrator** with the password `Pa55w.rd`. 
+2. Log on as **ADATUM\Administrator** with the password `XBo8MZiKFTstB6G`. 
 
 3. If you receive a **Networks** warning message asking if you want this PC to be discoverable by other PCs and devices on this network, select **No.**
 
@@ -38,7 +38,7 @@ In your role as Holly Dickson, Adatum’s Security Administrator, you have been 
 
 5. On the taskbar at the bottom of the page, select the **Microsoft Edge** icon. Maximize your browser window when it opens.
 
-6. In your browser go to the **Microsoft Office Home** page by entering the following URL in the address bar: `https://portal.office.com/` 
+6. In your browser go to the **Microsoft 365 Home** page by entering the following URL in the address bar: `https://portal.office.com/` 
 
 7. In the **Sign in** dialog box, copy and paste in the **Tenant Email** account provided by your lab hosting provider and then select **Next**.
 
@@ -48,11 +48,11 @@ In your role as Holly Dickson, Adatum’s Security Administrator, you have been 
 
 10. If a **Get your work done with Office 365** type window appears, then close it now. 
 
-11. If a **Set your time zone** window appears, select **set the time zone for your calendar**. In the **Outlook** window that opens, under **Time zone,** select your time zone and select **Save**, then close your browser window and re-open the **Microsoft Office Home** page by entering the following URL in the address bar: `https://portal.office.com/`.
+11. If a **Set your time zone** window appears, select **set the time zone for your calendar**. In the **Outlook** window that opens, under **Time zone,** select your time zone and select **Save**, then close your browser window and re-open the **Microsoft 365 Home** page by entering the following URL in the address bar: `https://portal.office.com/`.
 
 12. If a **Good morning/afternoon/evening MOD Administrator** window appears, select **Get started**.
 
-13. In the **Microsoft Office Home** page, select the **Admin** app. This opens the **Microsoft 365 admin center.**
+13. In the **Microsoft 365 Home** page, select the **Admin** app. This opens the **Microsoft 365 admin center.**
 
 14. In the left navigation pane, select the **Show All** ellipsis … icon to display all the navigation menu options.
 
@@ -108,7 +108,7 @@ In your role as Holly Dickson, Adatum’s Security Administrator, you have been 
 
 28. Once you’re done exploring and making any further changes, select **Save** and then **Close**.
 
-29. Remain logged into the domain controller VM and in Internet Explorer, leave your Microsoft 365 admin center tab and all tabs open for the remaining tasks. 
+29. Remain logged into the domain controller VM and in Microsoft Edge, leave your Microsoft 365 admin center tab and all tabs open for the remaining tasks. 
  
 
 
@@ -145,7 +145,7 @@ Holly Dickson is Adatum’s Security Administrator. Since she doesn’t have a p
 	
 	- Password settings: Uncheck the **Automatically create a password** option
 
-	- Password: `Pa55w.rd`
+	- Password: `XBo8MZiKFTstB6G`
 
 	- Uncheck the **Require this user to change their password when they first sign in** checkbox. 
 
@@ -210,7 +210,7 @@ In this task, you will turn on Information Rights Management (IRM) for SharePoin
 
 **Note:** While you will validate IRM in Exchange and SharePoint in a later lab, you must enable IRM for SharePoint Online now because it can take up to 60 minutes or more for IRM to show up in SharePoint Online. By the time you get to the validation exercise in the later lab, IRM should have finished its internal configuration so you won’t have to wait for it to be present in SharePoint Online.
 
-1. You should still be logged into your domain controller VM as the **LON-DC1\Admin** account with password: **Pa55w.rd**, and you should still be logged into Microsoft 365 (portal.office.com) as **MOD Administrator**. 
+1. You should still be logged into your domain controller VM as the **LON-DC1\Admin** account with password: **XBo8MZiKFTstB6G**, and you should still be logged into Microsoft 365 (portal.office.com) as **MOD Administrator**. 
 
 2. In the **Microsoft 365 admin center**, scroll down through left navigation pane and under **Admin centers,** select **SharePoint**. This will open the SharePoint admin center.
 
