@@ -16,7 +16,7 @@ The Help Desk has indicated that a large number of support tickets are related t
 
 #### Task 1: Enable self-service password reset
 
-1.  Switch to **LON-CL1** and sign in as **Adatum\\Administrator** with the password **Pa55w.rd**.
+1.  Switch to **LON-CL1** and sign in as **Adatum\\Administrator** with the password **XBo8MZiKFTstB6G**.
 
 2.  On the task bar select **Microsoft Edge**, open Azure by going to `https:/portal.azure.com/`.  Login as Holly Dickson from the previous lab. Navigate to **Azure Active Directory**
     

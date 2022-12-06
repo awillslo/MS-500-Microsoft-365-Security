@@ -19,7 +19,7 @@ If the device does not meet these requirement, the device should be marked as no
 
 #### Task 1: Create and apply compliance policy and enrollment restrictions
 
-1.  Sign in to **LON-CL1** as **ADATUM\\Administrator** with the password `Pa55w.rd`. 
+1.  Sign in to **LON-CL1** as **ADATUM\\Administrator** with the password `XBo8MZiKFTstB6G`. 
 
 2.  In Microsoft Edge, type `https://endpoint.microsoft.com` in the  address bar, and then press **Enter**. Sign in as as **admin\@yourtenant.onmicrosoft.com** with the default tenant password.
 
