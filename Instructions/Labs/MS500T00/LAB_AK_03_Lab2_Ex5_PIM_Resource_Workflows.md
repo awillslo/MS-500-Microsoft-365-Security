@@ -92,5 +92,4 @@ As a delegated approver, you will receive an email notification when an Azure re
 
      ![Screenshot](../Media/fe734263-57c8-4cc9-b79f-848d7d4f9488.png)
 
-
 # continue to exercise 6

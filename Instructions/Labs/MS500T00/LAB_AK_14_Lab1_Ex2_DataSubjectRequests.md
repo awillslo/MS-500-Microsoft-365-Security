@@ -7,7 +7,7 @@ lab:
 
 # Module 14 - Lab 1 - Exercise 2 - Conduct a Data Subject Request 
 
-Data subject requests (DSRs) are used to search for and extract all known information on a person of interest. A DSR can come from the person in question or from an authorized source. In this exercise you will configure and export a DSR from the Microsoft 365 Security and Compliance center.
+Data subject requests (DSRs) are used to search for and extract all known information on a person of interest. A DSR can come from the person in question or from an authorized source. In this exercise you will configure and export a DSR from the Microsoft Purview compliance portal.
 
 **NOTE:** You should only run a DSR if the request is made by a Data Privacy officer or a Human Resources manager. Due to data privacy legal concerns, you should NEVER run a DSR unless instructed to do so.
 
@@ -15,19 +15,15 @@ Data subject requests (DSRs) are used to search for and extract all known inform
 
 Holly Dickson is Adatum’s Security and Compliance Administrator. In her role as the company’s Microsoft 365 Global Administrator, she is responsible for implementing Adatum’s Microsoft 365 pilot project. Since Adatum has several European subsidiaries, properly managing GDPR data subject requests is a key task that must be tested so that the company can successfully implement this feature. In this task, Holly will create a DSR for herself on behalf of a request made by the Human Resource department.
 
-1. You should still be logged into your Client 1 VM (**LON-CL1**) as the **LON-CL1\Admin** account, and you should be logged into Microsoft 365 as **Holly Dickson** (**holly@M365xZZZZZZ.onmicrosoft.com)** with a password of **XBo8MZiKFTstB6G**. 
+1. You should still be logged into your Client 1 VM (**LON-CL1**) as the **LON-CL1\Admin** account, and you should be logged into Microsoft 365 as **Holly Dickson** (**holly@M365xZZZZZZ.onmicrosoft.com)** with a password of `XBo8MZiKFTstB6G`. 
 
-2. In your **Microsoft Edge** browser, if you have the **Security and Compliance Center** open in a tab, then select it; otherwise, open a new tab and enter the following URL in the address bar: `https://protection.office.com` .
+1. In your **Microsoft Edge** browser, if you have the **Microsoft Purview compliance portal** open in a tab, then select it; otherwise, open a new tab and enter the following URL in the address bar: `https://compliance.microsoft.com` .
 
-3. In the **Security and Compliance center**, in the left navigation pane select **Data privacy**, and then under it select **Data subject requests**.  
+1. Click **eDiscovery** > **User data search** > **+ Create a case**.  
 
 ‎**Note:** To perform this task, Holly needs to be assigned to the eDiscovery Manager role group so that she has the necessary permissions. You added Holly to this role group in the prior exercise at the same time that you added Joni Sherman to the role group. The reason we did this is explained below following the search query. 
 
-4. In the **Data subject requests** window, select **+Create a case**. This initiates the New DSR case wizard.
-
-‎**Note:** A notification message appears to inform that **Data subject requests** has a new name **User data search** and location. 
-
-5. In the **Name your case** page, enter the following information and then select **Next**:
+1. In the **Name your case** page, enter the following information and then select **Next**:
 
 	- Name: `Holly Dickson Subject Request`
 
@@ -39,15 +35,13 @@ Holly Dickson is Adatum’s Security and Compliance Administrator. In her role a
 
 8. In the **Successfully created new UDS case** window, select **Show me search results**.
 
-9. A new **Search query** window will appear and begin the query. In the bottom left corner of the screen, the status of the query is displayed. Wait for the status to show **Completed** this may take several minutes. 
+9. A new **Search query** window will appear and begin the query. Click **Save** and Enter `Holly Dickson` as the name for the search query in the window that opens to the right and click **Submit**. The query will begin automatically. In the bottom left corner of the screen, the status of the query is displayed. Wait for the status to show **Completed** this may take several minutes. 
 
 **Note:** The reason why you were instructed to add Holly to the eDiscovery Manager role group in the prior exercise rather than at the start of this one is that it takes several minutes for permissions to successfully propagate. If you had assigned Holly to this role group just prior to this query, you would have received error messages involving parameter fields because her permissions would not have completed propagating. By adding Holly to this role group in the prior exercise, enough time should have elapsed between then and now for the propagation to complete. If you still receive any error messages, click **OK** to resume the query. If this occurs, the query will not display any data.   
 	
 ‎**Note:** Depending on how much data is accrued, a query can take some time to complete. For Adatum’s pilot project, they have not accrued much in terms of data, so Holly Dickson’s query should only take a few minutes or so to complete.
 
 10. At any point, scroll down under **Search query** in the left pane to review the default query parameters. You can modify any of the parameters and save the query for future use.
-
-11. Select **Save** to save this DSR query for **Holly Dickson**.
 
 12. Select the **Home** tab. For Holly Dickson’s case, select **Close case** to the right of the Active status, and then select **Yes** on the **Warning** message. 
 
@@ -78,7 +72,7 @@ When someone files a DSR, you typically need to export the results. In this task
 
 7. In the right pane select **Download report** and when the download bar appears at the lower end of your browser, select **Open**.
 
-8. An **Application Install – Security Warning** window will appear that wants to install the **Microsoft 365 Office 365 eDiscovery Export Tool**. Select the **Install** button.
+8. An **Application Install – Security Warning** window will appear that wants to install the **Microsoft 365 Microsoft 365 eDiscovery Export Tool**. Select the **Install** button.
 
 9. When the **eDiscovery Export Tool** is installed, you need to copy the unique export key to the first text field. Go back to the **Holly Dickson Subject Request_ReportsOnly** export request in your browser window and below **Export key**, select **Copy to clipboard**.
 

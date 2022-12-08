@@ -18,14 +18,12 @@ The Help Desk has indicated that a large number of support tickets are related t
 
 1.  Switch to **LON-CL1** and sign in as **Adatum\\Administrator** with the password **XBo8MZiKFTstB6G**.
 
-2.  On the task bar select **Microsoft Edge**, open Azure by going to `https:/portal.azure.com/`.  Login as Holly Dickson from the previous lab. Navigate to **Azure Active Directory**
-    
+2.  On the task bar select **Microsoft Edge**, open Azure by going to `https:/portal.azure.com/`.  Login as Holly Dickson from the previous lab. Navigate to **Azure Active Directory** by typing in search box at the top.    
 
 3.  In the navigation pane select **Users**, then select **Password reset**.
 
 4.  In the **Password reset | Properties** window, select **All** to enable self-service password reset to all users. Select **Save**.
-
-5.  On the **Password reset | Manage** blade, select **Authentication methods**.
+1. Select **Authentication methods** under **Manage** on the left.
 
 6.  For the methods available to users, ensure that **Mobile Phone (SMS only)** and
     **Email** are selected, and then select **Security Questions**.
@@ -38,7 +36,7 @@ The Help Desk has indicated that a large number of support tickets are related t
 
 10. Select **Save**.
 
-11. Still on the **Password reset | Manage** blade, select **Registration** Select **No** for **Require users to register when signing in**, and the select **Save**.
+11. Select **Registration** under **Manage** on the left. Select **No** for **Require users to register when signing in**, and the select **Save**.
 
 #### Task 2: Register user for self-service password reset
 
@@ -53,7 +51,7 @@ When you test the self-service password reset, use a non-administrator account. 
 
 1. Browse to the self service password registration page at [https://aka.ms/ssprsetup](https://aka.ms/ssprsetup).
 
-1. On the **Security info** page, click **Add method**. Select your desired authentication method such as **Phone** and proceed through the setup steps.
+1. On the **Security info** page, click **Add sign-in method**. Select your desired authentication method such as **Phone** and proceed through the setup steps.
 
 >**Note** 
 If prompted to use an email you will need to use an e-mail address other than the tenant domain provided for this lab. If one is not available, you can skip the e-mail verification and continue with the next step. Sign in to your email account, read the code, type it in the verification field, and then select **Verify**. 

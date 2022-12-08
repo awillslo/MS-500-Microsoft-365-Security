@@ -32,7 +32,7 @@ In your policy, set:
 
      ![Screenshot](../Media/NewConditionalAccessScreen.png)
  
-5.  On the **Conditional Access** page, in the toolbar on the top, click **New Policy**, and then select **Create new policy**.
+5.  On the **Conditional Access** page, in the toolbar on the top, click **+ New Policy**, and then select **Create new policy**.
 
     **Note**: if this is greyed out, refresh the browser session.
 
@@ -128,7 +128,7 @@ We will initialize the what if policy evaluation tool for:
 
 In the previous section, you have learned how to evaluate a simulated sign-in. In addition to a simulation, you should also test your conditional access policy to ensure that it works as expected. 
 
-To test your policy, open an in-private browsing session and try to sign-in to the Azure portal **`https://portal.azure.com`** using your **Patti Fernandez** account. You should see a dialog that requires you to set your account up for additional security verification.
+To test your policy, open an in-private browsing session and try to sign-in to the Azure portal `https://portal.azure.com` using your **Patti Fernandez** account. You should see a dialog that requires you to set your account up for additional security verification.
 
 
 ## Continue to exercise 2.

@@ -15,42 +15,31 @@ In your role as Holly Dickson, Adatum’s Security Administrator, you have Micro
 In this exercise, you will add Joni Sherman and Holly Dickson as members of the eDiscovery Manger role, and then you will log into the Client VM as Joni and perform a content search that looks for emails with the keywords related to social security numbers.
 
 1. You should still be logged into your Client 1 VM (LON-CL1) as the **LON-CL1\Admin** account, and you should be logged into Microsoft 365 as **Holly Dickson**. 
-
-2. In your **Microsoft Edge** browser, if you have the **Security and Compliance Center** open in a tab, then select it; otherwise, open a new tab and enter the following URL in the address bar: `https://protection.office.com`.
-
-3. In the **Office 365 Security and Compliance Center**, in the left navigation pane, select **Permissions.**
-
-4. In the **Home &gt; Permissions** page, select the **eDiscovery Manager** check box.
-
-5. In the **eDiscovery Manager** role group window, scroll down to the **eDiscovery Manager** section and select **Edit**.
-
-6. The **Editing Choose eDiscovery Manager** wizard opens. The list should be empty. Select **Choose eDiscovery Manager**.
-
-7. In the **Choose eDiscovery Manager window**, select **(+) Add**.
-
-8. In the list of users that’s displayed, select `Joni Sherman` and `Holly Dickson`, and then select **Add**.  
-
-    ‎**Note:** You are adding Joni to the eDiscovery Manager role group for later use in this exercise, and you are assigning Holly to the role group for use in the next exercise.
-
-9. You should see a banner with the message **2 members added**. Select **Done** and then **Save**. Click **Close**.
+1. Return to the **Microsoft Purview Compliance portal**: `https://compliance.microsoft.com/`.
+1. Click **Permissions** > **Roles** under **Microsoft Purview solutions** > **eDiscovery Manager**.
+1. In the **eDiscovery Manager** role group window, scroll down to the **eDiscovery Manager** section and select **Edit**.
+1. The **Editing Choose eDiscovery Manager** wizard opens. The list should be empty. Select **Choose eDiscovery Manager**.
+1. In the **Choose eDiscovery Manager window**, select **(+) Add**.
+1. Search for `Joni Sherman` and then `Holly Dickson` and click the checkbox next to each one. Click **Add**.
+1. You should see a banner with the message **2 members added**. Select **Done** and then **Save**. Click **Close**.
 
 10. Switch to the Client 2 VM (**LON-CL2**). You should still be logged into **LON-CL2** as the **LON-CL2\Admin** account, and log into Microsoft 365 as **Joni Sherman**. In the **Sign in** window, enter **JoniS@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider). Select **Next**. In the **Enter password** window, enter Joni's password (hint: it is probably the same as the MOD password assigned by your lab hoster).
 
-11. If you have a tab open in your **Edge** browser for the **Office 365 Security and Compliance Center**, then select it now. Otherwise, select a new tab and enter the following URL in the address bar: `https://protection.office.com`.
+11. If you have a tab open in your **Edge** browser for the **Microsoft Purview compliance portal**, then select it now. Otherwise, select a new tab and enter the following URL in the address bar: `https://compliance.microsoft.com`.
 
-12. In the **Security and Compliance Center**, in the left navigation pane, select **Search**, and then under it select **Content search**.  
+12. In the **Microsoft Purview compliance portal**, in the left navigation pane, select **Search**, and then under it select **Content search**.  
 
-    ‎**Note**: If you cannot see **Search** in the navigation pane yet, you need to reload the browser tab with the **Security and Compliance Center.**
+    ‎**Note**: If you cannot see **Search** in the navigation pane yet, you need to reload the browser tab with the **Microsoft Purview compliance portal.**
 
-13. On the **Content search** window, in the **Searches** tab, select **+ New search** on the top menu. This will initiate the **New search** wizard.
+13. On the **Content search** window, in the **Search** tab, select **+ New search** on the top menu. This will initiate the **New search** wizard.
 
 14. On the Name your search page, enter `Content Search Test` into the **Name** field and then select **Next**.
 
 15. On the Locations page, select **All locations** and then select **Next**.
 
-‎**Note**: If **Specific locations** radio button is selected and **All location** option is not found, then enable the **Status** silder manually for all the available locations.
+‎**Note**: If **Specific locations** radio button is selected and **All location** option is not found, then enable the **Status** slider manually for all the available locations.
 
-16. On the **Define your search conditions** page, enter `SSN` press enter and type `social` into the **Keywords** box.  Pressing enter between keywords will separate the words as independent terms in the list. Once the two terms are added select **Next**. On the **Review your search and create it** page reveiw all the details and if any changes required click **Edit** and update the necessary changes. Click **Submit** and then click **Done**.
+16. On the **Define your search conditions** page, enter `SSN` press enter and type `social` into the **Keywords** box.  Pressing enter between keywords will separate the words as independent terms in the list. Once the two terms are added select **Next**. On the **Review your search and create it** page review all the details and if any changes required click **Edit** and update the necessary changes. Click **Submit** and then click **Done**.
 
 17. Back on the **Searches** tab, the Search query will run. The Status field in the bottom-left corner of the screen will indicate when the query is complete. It may take many minutes for the query to run and the data to be displayed in the right pane. When the content search finishes, you will see all mailbox items that you have created for the sensitive information test of your custom DLP policy.  
 
@@ -70,9 +59,9 @@ In this task, you will create an eDiscovery case with a configured hold and cont
 
 1. You should still be logged into your Client 2 VM (**LON-CL2**) as the **LON-CL2\Admin** account and signed into Microsoft 365 as Joni Sherman. However, if you have been signed out of Microsoft 365, then on the Microsoft 365 sign-in page, sign into Joni’s **JoniS@M365xZZZZZZ.onmicrosoft.com** account using her password assigned by your lab hoster.
 
-2. The **Security and Compliance Center** should still be open in a tab in Microsoft Edge. If so, select that tab now. If not, then enter the following URL in the address bar: `https://protection.office.com`. 
+2. The **Microsoft Purview compliance portal** should still be open in a tab in Microsoft Edge. If so, select that tab now. If not, then enter the following URL in the address bar: `https://compliance.microsoft.com`. 
 
-3. In the **Security and Compliance Center**, in the left navigation pane, select **eDiscovery**, and then under it, select **eDiscovery**.
+3. In the **Microsoft Purview compliance portal**, in the left navigation pane, select **eDiscovery**, and then under it, select **Standard**.
 
 4. On the **eDiscovery** window, select **(+) Create a case** on the top menu.
 
@@ -98,7 +87,7 @@ In this task, you will create an eDiscovery case with a configured hold and cont
 
 17. On the **Review your settings** page, review the values and select **Edit** next to any that need to be modified. When you are satisfied with the settings, select **Submit**, then select **Done**.
 
-18. Back on the **eDiscovery Case overview**, on the **Core eDiscovery > Social Security Violation > Hold** page, select the **Searches** tab from the top menu.
+18. Back on the **eDiscovery Case overview**, on the **eDiscovery (Standard) > Social Security Violation > Hold** page, select the **Searches** tab from the top menu.
 
 19. Select **+ New search**.
 

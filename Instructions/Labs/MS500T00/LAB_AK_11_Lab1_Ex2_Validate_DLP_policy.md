@@ -17,9 +17,9 @@ In the previous exercise, you created a custom DLP policy that searches emails f
 
 1. Switch to the Client 1 VM (**LON-CL1**), in which you should still be logged into Microsoft 365 as Holly Dickson (**holly@M365xZZZZZZ.onmicrosoft.com)** with a password of `XBo8MZiKFTstB6G`. 
 
-2. You will now send an email from Holly to Alex; the email will contain US Social Security numbers. In **Microsoft Edge**, the **Outlook on the web** tab should still be open for Holly. Select the **Outlook on the web** tab.  If not open a browser to `https://portal.office.com`, make sure you are signed-in as Holly Dickson and select **Outlook**.
+2. You will now send an email from Holly to Alex; the email will contain US Social Security numbers. Return to **Outlook** `https://outlook.office.com/`.
 
-3. In the upper left corner of the screen, select **New message**. 
+3. In the upper left corner of the screen, select **New mail**. 
 
 4. In the message pane that appears on the right-side of the screen, enter the following information:
 
@@ -53,7 +53,7 @@ In the previous exercise, you created a custom DLP policy that searches emails f
 
 12. In the **Edge** browser, if there are still signed in sessions, sign out of the current user account and close all **Edge** browser tabs.
 
-13. Open your **Edge** browser, maximize the window and enter the following URL in the address bar: `https://outlook.office365.com`
+13. Open your **Edge** browser, maximize the window and enter the following URL in the address bar: `https://outlook.office.com`
 
 14. You want to sign into **Outlook on the web** as **Alex Wilber**. If the **Pick an account** window appears, Alex’s account won’t appear since she hasn’t signed in before. Therefore, select **Use another account**. 
 
@@ -92,7 +92,7 @@ In the previous exercise, you created a custom DLP policy that searches emails f
 1. It can take many minutes for a DLP policy to propagate a tenant.  Most likely you sent the emails to Alex before the policy and subsequent scanning had a chance to be in place in your tenant.  If that happened come back to this lab later and resend the emails again.
 
 2. Another possibility is that you didn't format the SSN's properly in the body of the email.  Sensitive information types in DLP policies scan for data formatted in a particular way that is common for that data type.  If you click the link below you can see exactly how US Social Security numbers must be formatted in content in order to be detected by DLP policy scans.
-[https://docs.microsoft.com/en-us/microsoft-365/compliance/what-the-sensitive-information-types-look-for?view=o365-worldwide#us-social-security-number-ssn](https://docs.microsoft.com/en-us/microsoft-365/compliance/what-the-sensitive-information-types-look-for?view=o365-worldwide#us-social-security-number-ssn)
+[Formatting of sensitive information types](https://docs.microsoft.com/en-us/microsoft-365/compliance/what-the-sensitive-information-types-look-for?view=o365-worldwide#us-social-security-number-ssn)
 
 3. Check the DLP Policy configuration. Make sure you configured the policy as described in the previous exercise.
 

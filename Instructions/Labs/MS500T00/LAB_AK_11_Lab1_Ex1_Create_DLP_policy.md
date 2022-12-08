@@ -16,59 +16,53 @@ In this exercise you will create a Data Loss Prevention policy in the Security &
 
 1. You should still be logged into your Client 1 VM (**LON-CL1**) as the **LON-CL1\Admin** account, and you should be logged into Microsoft 365 as **Holly Dickson**. 
 
-2. In **Microsoft Edge**, the Office 365 Security & Compliance Center tab should still be open. If so, select it and proceed to the next step. If you closed it, then in a new tab, navigate to `https://protection.office.com`.
+1. Return to the **Microsoft Purview compliance portal** `https://compliance.microsoft.com/` click **Data loss prevention** > **Policies** > **Create policy**.
 
-3. In the **Security &amp; Compliance Center**, in the left navigation pane, select **Data loss prevention** and then select **Policy**.
+1. On the **Start with a template or create a custom policy** page, under **Categories** click **Custom** > **Custom policy** > **Next**.
 
-4. In the **Policy** window, select **+Create policy** to start the wizard for creating a new data loss prevention policy.
+1. In the **Name your policy** page, type `Social Security DLP Policy` in the **Name** field and `Protect social security numbers from being shared` in the **Description** field. Select **Next**.
 
-5. On the **Start with a template or create a custom policy** page, you want to select **Custom** in the left pane and **Custom policy** in the middle pane; however, by default, both these options should already be selected (if not, then select them now), so simply select **Next**.
+1. On the **Choose locations** page, select On for **Exchange email, SharePoint sites, OneDrive accounts, Teams chats and channel messages** and **Off** for **Microsoft Defender for Cloud Apps, On-premises repositories, Power BI** and then select **Next**.
 
-6. In the **Name your policy** page, type `Social Security DLP Policy` in the **Name** field and `Protect social security numbers from being shared` in the **Description** field. Select **Next**.
+1. On the **Define policy settings** page click **Next**.
 
-7. On the **Choose locations** page, select On for **Exchange email, SharePoint sites, OneDrive accounts, Teams chats and channel messages** and **Off** for **Microsoft Defender for Cloud Apps, On-premises repositories, Power BI** and then select **Next**.
+1. On the **Customize advanced DLP rules** click **+ Create rule**.
 
-8. On the **Define policy settings** page click **Next**.
+1. On the **Create rule** page, in the **Name** field type `Social Security Number`.
 
-8. On the **Customize advanced DLP rules** click **+Create rule**.
+1. Under **Conditions** click **+ Add condition** > **Content Contains**.
 
-9. On the **Create rule** page, in the **Name** field type **Social Security Number**.
+1. Leave the value of **Default** for **Group name**, click **Add** > **Sensitive info types**.
 
-10. Under **Conditions** click **+Add condition** then **Content Contains**.
+1. In the search field type `social` and press enter, and wait until the search results are displayed.
 
-11. Leave the value of **Default** and select **Add v**, choose **Sensitive info types**
+1. In the list of search results, select the **U.S. Social Security Number (SSN)** check box, and then select **Add**.
 
-12. In the search field type `social` and press enter, and wait until the search results are displayed.
+1. In the U.S. Social Security Number (SSN) row, change the **Instance count** from **1** to **2**.
 
-13. In the list of search results, select the **U.S. Social Security Number (SSN)** check box, and then select **Add**.
+1. Below the **Content contains** box, click **+ Add Condition** and select **Content is shared from Microsoft 365**.
 
-14. In the U.S. Social Security Number (SSN) row, change the **Instance count** from **1** to **2**.
+1. In the field below this, verify that **only with people inside my organization** is displayed.
 
-16. Click **Add Condition** and select **Content is shared from Microsoft 365**.
+1. Scroll down to **Actions** section.
 
-17. In the field below this, verify that **only with people inside my organization** is displayed.
+1. Click **+ Add an Action** > **Restrict access or encrypt the content in Microsoft 365 locations**.
 
-18. Scroll down to **Actions** section.
+1. Check the box **Restrict access or encrypt the content in Microsoft 365 locations** and select **Block everyone**.
 
-19. Click **+ Add an Action**.
+1. Scroll down to **Incident reports**.
 
-20. Select **Restrict access or encrypt the content in Microsoft 365 locations**.
+1. Select **Medium** in the field **Use this severity level in admin alerts and reports**.
 
-21. Check the box **Restrict access or encrypt the content in Microsoft 365 locations** and select **Block everyone**.
+1. Move the slider bar for **Send and alert to admins when a rule match occurs** to **On**.
 
-22. Scroll down to **Incident reports**.
+1. Select **Save**.
 
-23. Select **Medium** in the field **Use this severity level in admin alerts and reports**.
+1. Click **Next** > **Next**.
 
-24. Move the slider bar for **Send and alert to admins when a rule match occurs** to **On**.
+1. On the **Test or turn on policy** page select **Turn it on right away** and select **Next**.
 
-25. Select **Save**.
-
-26. Click **Next**.
-
-27. On the **Test or turn on policy** page select **Turn it on right away** and select **Next**.
-
-28. Click **Submit** and then select **Done**.
+1. Click **Submit** and then select **Done**.
 
 You have now created a DLP policy that scans for US Social Security numbers in emails and documents that are sent or shared in your organization.
 

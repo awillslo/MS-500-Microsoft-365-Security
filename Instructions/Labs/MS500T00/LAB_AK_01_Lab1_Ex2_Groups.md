@@ -7,7 +7,7 @@ lab:
 
 # Module 1 - Lab 1 - Exercise 2 - Manage users and groups 
 
-In the following lab exercise, you will take on the role of Holly Dickson, Adatum Corporation’s Security Administrator. In this exercise, you will perform several user and group management functions within Microsoft 365. You will create two Office 365 groups and assign existing Microsoft 365 users as members of those groups. You will then delete one of the groups and then use PowerShell to recover the deleted group.
+In the following lab exercise, you will take on the role of Holly Dickson, Adatum Corporation’s Security Administrator. In this exercise, you will perform several user and group management functions within Microsoft 365. You will create two Microsoft 365 groups and assign existing Microsoft 365 users as members of those groups. You will then delete one of the groups and then use PowerShell to recover the deleted group.
 
 **Note:** The VM environment provided by your lab hosting provider comes with ten existing Microsoft 365 user accounts, as well as a number of existing on-premises user accounts. Several of these existing user accounts will be used throughout the labs in this course. This will save you from having to perform the tedious task of creating user accounts, which is typically not a task performed by Security Administrators. It will also provide you with the experience of creating a Microsoft 365 user account in case you are not familiar with the process.
 
@@ -16,7 +16,7 @@ In the following lab exercise, you will take on the role of Holly Dickson, Adatu
 
 In this task, you will begin implementing Adatum’s Microsoft 365 pilot project as Holly Dickson, Adatum’s new Security Administrator. Therefore, you will begin this task by logging out of Microsoft 365 as the MOD Administrator and you will log back in as Holly.<br/>
 
-In this task, you will create two new groups and then manage the groups by assigning users to them. One group will be an Office 365 group and the other a Security group; this will enable you to see some of the differences in the two types of groups. After creating the groups, you will then delete one of them. This will set up the next task, which examines how to recover a deleted group using Windows PowerShell.
+In this task, you will create two new groups and then manage the groups by assigning users to them. One group will be an Microsoft 365 group and the other a Security group; this will enable you to see some of the differences in the two types of groups. After creating the groups, you will then delete one of them. This will set up the next task, which examines how to recover a deleted group using Windows PowerShell.
 
 1. You should still be logged into your domain controller 1 VM as the **LON-DC1\Admin** account, and you should be logged into Microsoft 365 as **MOD Administrator**. On the **Microsoft 365 admin center** tab, select the user icon for the **MOD Administrator** (the **MA** circle) in the upper right corner of your browser, and in the **My account** pane, select **Sign out.** <br/>
 	
@@ -30,9 +30,9 @@ In this task, you will create two new groups and then manage the groups by assig
 
 5. In the **Enter password** window, enter `XBo8MZiKFTstB6G` and then select **Sign in**.
 
-6. If a **Get your work done with Office 365** window appears, select the **X** to close it. 
+6. If a **Get your work done with Microsoft 365** window appears, select the **X** to close it. 
 
-7. In the **Office 365 home page**, select **Admin** to open the Microsoft 365 admin center (if **Admin** is covered by an **Office 365 apps** box, select **Got it!** to close the box).
+7. In the **Microsoft 365 home page**, select **Admin** to open the Microsoft 365 admin center (if **Admin** is covered by an **Microsoft 365 apps** box, select **Got it!** to close the box).
 
 8. If a survey window appears, select **Cancel**.
 
@@ -62,32 +62,31 @@ In this task, you will create two new groups and then manage the groups by assig
 18. Repeat steps 10-16 to add a new group with the following information:
 
 	- Group type: `Security`
-
 	- Name: `IT Admins`
-
 	- Description: `IT administrative personnel` <br/>
+	- Check the box to select **Azure AD roles can be assigned to the group** on **Edit settings**
 
 	**Note:** there is no owner, email address, or privacy setting for Security groups
 
 19. If either of the two new groups do not appear in their respective tabs, wait a minute or so and then select the **Refresh** option on the menu bar (to the right of **Add a group**). You may need to wait an additional few minutes for both groups to appear.
 
-	**Note:** The IT admins group does not have a group email address because it's a Security group. Two additional group types are Mail-enabled Security groups and Distribution list groups. We did not use either of these group types in this lab because it can take up to an hour for these two types of groups to appear in the Groups list; whereas, Office 365 groups and Security groups usually take just a matter of minutes to appear. 
+	**Note:** The IT admins group does not have a group email address because it's a Security group. Two additional group types are Mail-enabled Security groups and Distribution list groups. We did not use either of these group types in this lab because it can take up to an hour for these two types of groups to appear in the Groups list; whereas, Microsoft 365 groups and Security groups usually take just a matter of minutes to appear. 
 
 20. You’re now ready to add members to the groups. In the list of **Groups**, select the **Inside Sales** group, which opens a window for the group. 
 
-21. Click the Microsoft 365 tab, select the **Inside Sales** group then select the **Members** tab.
+21. Click the Microsoft 365 tab, select the **Inside Sales** group then select the **Membership** tab.
 
-22. Under the **Members** section, you can see the two owners (Allan and Patti). Select the **Members** tab on the left to add members to the group. 
+22. Under the **Owners** section, you can see the two owners (Allan and Patti). Select the **Members** tab on the left to add members to the group. 
 
 23. In the **Inside Sales** group window, select **Add members**. This displays the list of current users.
 
 24. Click in the **Search** field and select both **Diego Siciliani** and **Lynne Robbins**, and then scroll to the bottom and select **Add (2)**. 
 
-25. Select **Back arrow**. 
+25. Select **Back arrow** in the upper left. 
 
 26. On the **Inside Sales** window, Diego and Lynne should now appear as members of the group. Select the **X** in the upper right corner to close the window. 
 
-27. Repeat steps 19-25 to add **Isaiah Langer**, **Megan Bowen**, and **Nestor Wilke** as members of the **IT admins** group which is in the Security tab.
+27. Repeat steps 19-25 to add **Isaiah Langer**, **Megan Bowen**, and **Nestor Wilke** as members of the **IT admins** group which is under the Security tab.
 
 28. You now want to test the effect of deleting a group. In the list of **Microsoft 365** tab, select the vertical ellipsis icon (**More actions**) that appears to the right of the **Inside Sales** group. In the menu box that appears, select **Delete team**. 
 
@@ -124,7 +123,7 @@ In this task, you will use Windows PowerShell to recover the Inside Sales group 
 
 	- You should then run the following command to display the repository of deleted groups (this should display the **Inside Sales** group that you earlier deleted):<br/>  
 	
-		‎`Get-AzureADMSDeletedGroup`   
+		`Get-AzureADMSDeletedGroup`   
 
 	- Before you can restore this deleted group, you must first copy the Object ID of the Inside Sales group that appears in the table of deleted groups. When you perform the next command to restore the group, you will use this ID to identify the group that you want restored. <br/>
 	
@@ -132,9 +131,9 @@ In this task, you will use Windows PowerShell to recover the Inside Sales group 
 
 	- You should then run the following command to retrieve and restore the deleted group whose Object ID matches the value you enter:<br/>  
 
-		‎**Note:** Replace the {objectId} in the following command with the ID number for the Inside Sales group that you copied in the prior step. When you enter the following Restore command and you get to the point of pasting in the {objectId} parameter, press Ctrl-V to paste in the Id. Then press Enter to run the command. **NOTE:** If nothing happens when you hit Enter, then extraneous hidden characters may have been pasted in following the object ID. If this occurs, retype the command and hit the Delete key a couple of times after pressing Ctrl-V, and then press Enter again.  <br/>
+		**Note:** Replace the {objectId} in the following command with the ID number for the Inside Sales group that you copied in the prior step. When you enter the following Restore command and you get to the point of pasting in the {objectId} parameter, press Ctrl-V to paste in the Id. Then press Enter to run the command. **NOTE:** If nothing happens when you hit Enter, then extraneous hidden characters may have been pasted in following the object ID. If this occurs, retype the command and hit the Delete key a couple of times after pressing Ctrl-V, and then press Enter again.  <br/>
 
-		‎`Restore-AzureADMSDeletedDirectoryObject -Id {objectId}`  
+		`Restore-AzureADMSDeletedDirectoryObject -Id {objectId}`  
 		
 4. Leave your Windows PowerShell window open for the next exercise; simply minimize the PowerShell window for now.
 

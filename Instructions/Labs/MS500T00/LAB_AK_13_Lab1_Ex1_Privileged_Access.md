@@ -21,13 +21,13 @@ Before you start using privileged access, determine who needs approval authority
 
 2. In your **Microsoft Edge** browser, if you have the **Microsoft 365 admin Center** open in a tab, then select it; otherwise, open a new tab and enter the following URL in the address bar: `https://admin.microsoft.com`.
 
-3. In the admin center, click **Teams & groups** and then select **Active teams & groups**.  In the **Active teams & groups** screen select **Add a group**.
+3. In the admin center, click **Teams & groups** > **Active teams & groups** > **Add a group**.
 
-4.  In the **Choose a group type** screen select **Mail-enabled security** and select **Next**.
+4.  In the **Choose a group type** screen select **Mail-enabled security** >**Next**.
 
 5.  In the **Set up the basics** screen enter the Name `Privileged Access Approval Group` and enter a similar description and then select **Next**.
 
-6.  In the **Assign Owners** screen, select **+Assign Owners** Search for **Holly**. Select **Holly Dickson** and click **Add (1)** and then select **Next**.
+6.  In the **Assign Owners** screen, select **+ Assign Owners** Search for **Holly**. Select **Holly Dickson** and click **Add (1)** and then select **Next**.
 
 7.  In the **Add Members** screen, select **+Add Members** Search for **MOD Administrator**. Select **MOD Administrator** and click **Add (1)** then select **Next**.
 
@@ -46,7 +46,7 @@ Before you start using privileged access, determine who needs approval authority
 
 2. In the Org settings screen select the **Security & privacy** tab and then select **Privileged access**.
 
-3. In the Privileged Access screen make sure **Allow Priviledged access requests and choose default approval group** is **Checked**.
+3. In the Privileged Access screen make sure **Allow Privileged access requests and choose default approval group** is **Checked**.
 
 4.  Select the **Privileged Access Approval Group** as the **Default approval group**.  Click **Save** and close the **Add Policy** window.
 

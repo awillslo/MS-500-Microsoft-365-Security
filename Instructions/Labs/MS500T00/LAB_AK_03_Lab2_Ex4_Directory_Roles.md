@@ -14,11 +14,9 @@ lab:
 Role assignments become "stale" when users have privileged access that they don't need anymore. In order to reduce the risk associated with these stale role assignments, privileged role administrators or global administrators should regularly create access reviews to ask admins to review the roles that users have been given. This task covers the steps for starting an access review in Azure AD Privileged Identity Management (PIM).
 
 
-1.  Return back to the browser that is logged in as your Global Admin Account Holly Dickson.
+1.  Return back to the browser that is logged in to the Azure portal as your Global Admin Account Holly Dickson.
 
-1.  From the PIM application main page select **Azure AD Roles** under the **Manage** section select **Access reviews** and Select **New**.
-
-     ![Screenshot](../Media/1704b3b2-05a7-47c8-a3e3-20ba6546b9d6.png)
+1.  From the PIM application main page select **Azure AD Roles** > **Access reviews** > **New**.
 
 1.  Enter the following details and click **Start**:
 
@@ -26,17 +24,12 @@ Role assignments become "stale" when users have privileged access that they don'
       - Start Date:  `Enter Today's Date` 
       - Frequency: `Drop down to One time`
       - End Date:  `Enter End of next month`
-      - Review role membership:  `Global Administrator`
+      - Role:  `Global Administrator`
       - Reviewers:  `Holly Dickson`
- 
- 
-     ![Screenshot](../Media/84274ed2-be53-4b3f-853a-c85f0dcfeab2.png)
  
 1.  Once the review has completed and has a status of Active, click on the **Global Admin Review**. You may need to refresh the view in Azure.
 
-1.  Select **Results** and see the outcome of **Not reviewed**.
-
-     ![Screenshot](../Media/04c32a26-be67-48dd-bf3d-7b60e81e2fff.png)
+1.  Select **Results** and see the outcome of **Not reviewed** in the **Outcome** column for each of the results.
 
 ### Task 2: Approve or deny access
 
@@ -50,11 +43,9 @@ When you approve or deny access, you are just telling the reviewer whether you s
 
      ![Screenshot](../Media/3f5a8e6a-05a7-4cc0-96ea-d1a10d23c38f.png)
 
-3.  Unless you created the review, you appear as the only user in the review. Select the check box next to Holly Dickson and click **view**.
+3.  You can **View** the audit details for any of the role memberships which you would like to investigate.
 
-     ![Screenshot](../Media/081d9886-8482-4d62-827c-68eb380c00a0.png)
-
-5.  Close the **Review Azure AD roles** blade.
+5.  Close the **Global Admin Review** and **Review Azure AD roles** blade.
 
 ### Task 3: Complete an access review for Azure AD directory roles in PIM
 
@@ -65,13 +56,7 @@ After the access review period is over, or all the users have finished their sel
 
 
 
-1. Go to the **Azure portal** and select the `Azure AD Privileged Identity Management`.
-
-1. Select **Azure AD Roles**.
-
-2. Select the **Access reviews**.
-
-3. Select the Global Admin Review. 
+1. Return to the `Global Admin Review`. Go to the **Azure portal** > `Azure AD Privileged Identity Management` > **Azure AD Roles** > **Access reviews** > `Global Admin Review`. 
 
 4. Choose one of the available options for completing the review:
      - **Stop** - All access reviews have an end date, but you can use the Stop button to finish it early. If any users haven't been reviewed by this time, they won't be able to after you stop the review. You cannot restart a review after it's been stopped.
@@ -81,18 +66,9 @@ After the access review period is over, or all the users have finished their sel
 
 ### Task 4: Configure security alerts for Azure AD directory roles in PIM
 
-
 You can customize some of the security alerts in PIM to work with your environment and security goals. Follow these steps to open the security alert settings:
 
-
-
-1.  Open `Azure AD Privileged Identity Management`.
-
-1.  Click **Azure AD roles**.
-
-1.  Click **Alerts** and then **Setting**.
-
-1.  Click an alert name to configure the setting for that alert.
-
+1. Open `Azure AD Privileged Identity Management` > **Azure AD roles** > **Alerts** > **Setting**.
+1. Click an alert name to configure the setting for that alert.
 
 # continue to exercise 5

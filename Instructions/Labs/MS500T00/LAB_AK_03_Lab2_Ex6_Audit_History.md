@@ -31,8 +31,6 @@ Follow these steps to view the audit history for Azure AD roles.
 
 1. If you desire you can export the data results by clicking the **Export** button.  This will export the results to a *.CSV file.
 
-
-
 **Results**: You have now completed this lab.
 
 # End lab

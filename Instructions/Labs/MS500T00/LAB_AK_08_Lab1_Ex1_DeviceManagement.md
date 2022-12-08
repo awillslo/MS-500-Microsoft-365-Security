@@ -26,11 +26,11 @@ In this task you will verify that Adatum has installed the Enterprise Mobility +
 
 5. In the **Enterprise Mobility + Security E5** page, under the list of users, verify that your pilot team members – **Alex Wilber**, **Joni Sherman**, **Lynne Robbins**, and the **MOD Administrator** – were each assigned a license.
 
-    **Note:** These user accounts were created as part of your Office 365 tenant, and during that process, they were each assigned an Office 365 E5 license and an Enterprise Mobility + Security E5 license.
+    **Note:** These user accounts were created as part of your Microsoft 365 tenant, and during that process, they were each assigned an Microsoft 365 E5 license and an Enterprise Mobility + Security E5 license.
 
-6. The one user who was not assigned an Enterprise Mobility + Security E5 license is your Global Administrator, Holly Dickson. When you created Holly&#39;s user account in an earlier lab, you may have been instructed at that time to only assign her an Office 365 E5 license. You will now assign her an Enterprise Mobility + Security E5 license.  If Holly already has an Enterprise Mobility + Security E5 license you can skip to the next task.
+6. The one user who was not assigned an Enterprise Mobility + Security E5 license is your Global Administrator, Holly Dickson. When you created Holly's user account in an earlier lab, you may have been instructed at that time to only assign her an Microsoft 365 E5 license. You will now assign her an Enterprise Mobility + Security E5 license.  If Holly already has an Enterprise Mobility + Security E5 license you can skip to the next task.
 
-    To assign Holly a license, select **+Assign licenses**.
+    To assign Holly a license, select **+ Assign licenses**.
 
 7. On the **Assign licenses to users** page, select the **Enter a name or email address** field, and in the list of users that appears, select **Holly Dickson**.
 
