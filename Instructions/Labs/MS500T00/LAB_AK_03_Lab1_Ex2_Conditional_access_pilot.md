@@ -22,8 +22,6 @@ In this exercise you will configure a conditional access policy enabling Azure M
 
 1.  Click **Groups** and click **+ New group**.
 
-     ![Screenshot](../Media/cb9c5324-cbb6-476e-9c7d-1920de301d40.png)
-
 1.  Enter the following information then select **Create**:
 
       * Group type; `Security`
@@ -35,10 +33,10 @@ In this exercise you will configure a conditional access policy enabling Azure M
   
       ![Screenshot](../Media/5457b62d-dc78-4043-bd72-3d7901bbcd71.png)
   
-2.  Browse to **Azure Active Directory**, click **Security** and select **Conditional access** on the **Policies** Blade.
+2.  Browse to **Azure Active Directory**, click **Security** under **Manage** and then click **Conditional access** under **Protect**.
 
 
-3.  Select **+ New policy**, and then select **Create new policy**.
+3.  Select **+ New policy**.
 
 
 4.  Name your policy `MFA Pilot`
@@ -47,11 +45,11 @@ In this exercise you will configure a conditional access policy enabling Azure M
     * Click **Select**
 
 6.  In the **Cloud apps or actions** section, click **No cloud apps, actions, or authentication contexts selected**.
-    * Click **Select**. The cloud app for the Azure portal is `Microsoft Azure Management` select it.
-    * Click **Select apps**
-
-7.  Skip the **Conditions** section
-8.  In the **Access controls** section under **Grant**, click **0 controls selected** and make sure the **Grant access** radio button is selected.
+1. In the drop down box under **Select what this policy applies to**, ensure that **Cloud apps** is selected.
+1. Under **Include** Click **Select apps**. Under **Select** click the word **None**.
+1. In the **Select - Cloud apps** blade that opens to the far right, type `Microsoft Azure Management` in the search box to add the cloud app for the Azure portal. Click **Select**.
+1.  Skip the **Conditions** section
+1.  In the **Access controls** section under **Grant**, click **0 controls selected** and make sure the **Grant access** radio button is selected.
     * Check the box for **Require multi-factor authentication**
     * Click **Select**
 

@@ -14,13 +14,13 @@ You have been tasked with deploying Microsoft 365 in Adatum’s hybrid deploymen
 In this lab, the trial tenant has already been selected and a default tenant admin account has already been created. In your role as Holly Dickson, Adatum’s Security Administrator, you will be responsible for the remainder of the initial setup. You will log into the Domain Controller VM using the ADATUM\Administrator account, and when you access Microsoft 365 for the first time, you will initially log in using the tenant email account that has been assigned to your Microsoft 365 tenant. Once you create your Microsoft 365 account for Holly, you will log into Microsoft 365 as Holly from that point forward.
 
 
-### Task 1 - Obtain Your Office 365 Credentials
+### Task 1 - Obtain Your Microsoft 365 Credentials
 
 Once you launch the lab, a free trial tenant will be made available to you to access Azure in the Microsoft Virtual Lab environment. This tenant will be automatically assigned a unique username and password. You must retrieve this username and password so that you can sign into Azure and Microsoft 365 within the Microsoft Virtual Lab environment. You will also be assigned a unique network IP address and UPN name for your O365 blob. You will also use this UPN name in various tasks throughout the labs for this course.
 
 1. Because this course can be offered by learning partners using any one of several authorized lab hosting providers, the actual steps involved to retrieve the UPN name, network IP address, and tenant ID associated with your tenant may vary by lab hosting provider. Therefore, your instructor will provide you with the necessary instructions on how to retrieve this information for your course. The information that you should note for later use includes:
 
-	- **Tenant suffix ID.** This ID is for the onmicrosoft.com accounts that you will use to sign into Microsoft 365 throughout the labs. This is in the format of **{username}@M365xZZZZZZ.onmicrosoft.com**, where ZZZZZZ is your unique tenant suffix ID provided by your lab hosting provider. Record this ZZZZZZ value for later use. When any of the lab steps direct you to sign into the Office 365 or Microsoft 365 portals, you must enter the ZZZZZZ value that you obtained here.
+	- **Tenant suffix ID.** This ID is for the onmicrosoft.com accounts that you will use to sign into Microsoft 365 throughout the labs. This is in the format of **{username}@M365xZZZZZZ.onmicrosoft.com**, where ZZZZZZ is your unique tenant suffix ID provided by your lab hosting provider. Record this ZZZZZZ value for later use. When any of the lab steps direct you to sign into the Microsoft 365 or Microsoft 365 portals, you must enter the ZZZZZZ value that you obtained here.
 	- **Tenant password.** This is the password for the admin account provided by your lab hosting provider.
 	- **UPN name (in the format XXYYZZa) and the network IP address.** Write down the **IP Address** value (this is the IP Address of your parent domain; for example, 64.64.206.13), as well as your **UPN name** (for example, AVEAH2a).
 
@@ -46,7 +46,7 @@ In your role as Holly Dickson, Adatum’s Security Administrator, you have been 
 
 9. On the **Stay signed in?** dialog box, select the **Don’t show this again** checkbox and then select **Yes.**
 
-10. If a **Get your work done with Office 365** type window appears, then close it now. 
+10. If a **Get your work done with Microsoft 365** type window appears, then close it now. 
 
 11. If a **Set your time zone** window appears, select **set the time zone for your calendar**. In the **Outlook** window that opens, under **Time zone,** select your time zone and select **Save**, then close your browser window and re-open the **Microsoft 365 Home** page by entering the following URL in the address bar: `https://portal.office.com/`.
 
@@ -88,7 +88,7 @@ In your role as Holly Dickson, Adatum’s Security Administrator, you have been 
 
 21. In the **Release preferences** window, select **Targeted release for selected users** and then select **Save**.  
 
-    ‎**Note:** One of the benefits of Office 365 is the ability to have the latest features and updates applied to your environment automatically, which can reduce maintenance costs and overhead for an organization. By setting up your Release preferences, you can control how and when your Office 365 tenant receives these updates.
+    ‎**Note:** One of the benefits of Microsoft 365 is the ability to have the latest features and updates applied to your environment automatically, which can reduce maintenance costs and overhead for an organization. By setting up your Release preferences, you can control how and when your Microsoft 365 tenant receives these updates.
 
 22. If the **Are you sure you want to change to Targeted release for select people** window appears, select **Yes.**.  <br/>
 
@@ -155,7 +155,7 @@ Holly Dickson is Adatum’s Security Administrator. Since she doesn’t have a p
 
 	- Select location: **United States**
 
-	- Licenses: Under **Assign user a product license**, select **Office 365 E5** and **Enterprise Mobility + Security E5**. 
+	- Licenses: Under **Assign user a product license**, select **Microsoft 365 E5** and **Enterprise Mobility + Security E5**. 
 
 7. Select **Next**.
 
@@ -195,7 +195,7 @@ Azure Active Directory is needed to perform several configuration steps when ins
 
 1. You must then run the following command to install the Azure AD PowerShell module that you just retrieved in the earlier step:
 
-	`Install-Module AzureADPreview`   
+	`Install-Module AzureAD`   
 	
 1. If you are prompted to confirm that you want to execute this command, enter **A** to select **[A] Yes to All**.
 
@@ -226,17 +226,17 @@ In this task, you will turn on Information Rights Management (IRM) for SharePoin
 
 ### Task 6 – Turn on Audit Logging to enable Alert Policies
 
-In a later lab, you will create Alert Policies using the Security and Compliance Center. However, before you can implement alerts, an admin must first turn on Audit Logging for the organization. Since it can take some hours for audit logging to be fully enabled once you turn it on in the Security and Compliance Center, you will turn it on in this lab so that it is fully enabled by the time you get to that lab.
+In a later lab, you will create Alert Policies using the Microsoft Purview compliance portal. However, before you can implement alerts, an admin must first turn on Audit Logging for the organization. Since it can take some hours for audit logging to be fully enabled once you turn it on in the Microsoft Purview compliance portal, you will turn it on in this lab so that it is fully enabled by the time you get to that lab.
 
 1. You should still be logged into your domain controller 1 VM as the **LON-DC1\Admin** account, and you should be logged into Microsoft 365 as **MOD Administrator**.
 
-2. In your browser, enter the following URL in the address bar: `https://protection.office.com`.
+2. In your browser, enter the following URL in the address bar: `https://compliance.microsoft.com`.
 
-3. In the **Office 365 Security &amp; Compliance center**, in the left navigation pane, select **Search**, and then under it, select **Audit log search**. It redirects to the page `https://compliance.microsoft.com/auditlogsearch`.
+3. In the **Microsoft Purview compliance portal**, in the left navigation pane, select **Audit**..
 
-4. In the **Audit log search** window, at the top right of the page, select **Start recording user and admin activity** and then confirm the **Your organization settings need to be updated. Do you want to continue?** question by selecting **Yes**. Note: 'Audit Log' will be turned on by default for MS 365 and Office 365 Enterprise organizations. If there is no prompt to 'Turn On' audit log on that page, that means 'Audit Log' has been turned on by default.
+4. In the **Audit** window, at the top of the page, select **Start recording user and admin activity** and then confirm the **Your organization settings need to be updated. Do you want to continue?** question by selecting **Yes**. Note: 'Audit Log' will be turned on by default for M365 and Microsoft 365 Enterprise organizations. If there is no prompt to 'Turn On' audit on that page, that means 'Audit' has been turned on by default.
 
-5. Leave the **LON-DC1** VM and the Security and Compliance Center open.
+5. Leave the **LON-DC1** VM and the Microsoft Purview compliance portal open.
 
 
 

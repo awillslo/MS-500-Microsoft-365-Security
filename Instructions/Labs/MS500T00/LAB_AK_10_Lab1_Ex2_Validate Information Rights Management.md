@@ -13,15 +13,15 @@ In this exercise, you will learn how to validate Information Rights Management f
 
 In the prior exercise, you set up Information Rights Management in Exchange Online for Adatum. In this exercise, you will validate that configuration by sending a protected email from Holly Dickson to Alex Wilber. You will then log into Alex’s mailbox on the Client 2 VM (**LON-CL2**), open the email, and verify that it’s protected.  
 
-1. On the Client 1 VM (**LON-CL1**), you should still be logged into the Microsoft 365 admin center as Holly Dickson. In your **Microsoft Edge** browser, you should still have the **Office 365 home** page open on a tab. Select the **Office 365 home page** tab, and then select **Outlook.** **Note**: If you are prompted to select a time zone, then choose one and select **Save**. 
+1. On the Client 1 VM (**LON-CL1**), you should still be logged into the Microsoft 365 admin center as Holly Dickson. In your **Microsoft Edge** browser, you should still have the **Microsoft 365 home** page open on a tab. Select the **Microsoft 365 home page** tab, and then select **Outlook.** **Note**: If you are prompted to select a time zone, then choose one and select **Save**. 
 
-2. At the top of the left navigation pane, select **New message** to create a new email.
+2. At the top of the left navigation pane, select **New mail** to create a new email.
 
 3. You want to send the email to **Alex Wilber**. Type `Alex` in the **To** field, which displays a dialog box that displays all users whose Display Name starts with Alex (of which there is just one). Select **Alex Wilber**.
 
 4. Enter a **Subject**, and then type some text in the message body. 
 
-5. In the menu bar above the message pane, select **Encrypt**.
+5. In the menu bar above the message pane, click the **Options** tab > **Encrypt** > **Encrypt**.
 
 6. The message will now have a lock icon and list it as encrypted. To the right of the lock icon select **Change permissions**. 
 
@@ -33,7 +33,7 @@ In the prior exercise, you set up Information Rights Management in Exchange Onli
 
 10. On the taskbar, select the **Microsoft Edge** icon. In your **Edge** browser navigate to `https://portal.office.com`. In the **Pick an Account** window, if **Alex Wilber** is listed then select his username; otherwise, select **Use another account** and log in as **AlexW@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) his password is probably the same as the MOD admin password for your tenant as set by your lab provider.<br/>
 
-11. In the **Office 365 home page**, select **Outlook**. 
+11. In the **Microsoft 365 home page**, select **Outlook**. 
 
 12. On the **Outlook** page, select your **language** and **time zone** and select **Save**. 
 
@@ -51,7 +51,7 @@ In the prior exercise, you set up Information Rights Management in Exchange Onli
 
 19. In your **Edge** browser, close the **Outlook** tab. 
 
-20. You want to remain logged into the Office 365 home page as **Alex Wilber** on **LON-CL2** for the next task, so leave the **Office 365 home page** tab open and proceed to the next task.
+20. You want to remain logged into the Microsoft 365 home page as **Alex Wilber** on **LON-CL2** for the next task, so leave the **Microsoft 365 home page** tab open and proceed to the next task.
 
  
 ### Task 2 - Validate Information Rights Management for SharePoint Online
@@ -95,9 +95,9 @@ You will begin by having Holly create a new SharePoint site collection, configur
 
 12. In the **We’ve got a new look** window, if it appears, select **NOT NOW**.
 
-13. In the **Documents** page for the **Marketing** site, at the top right, select the **gear** (**Settings)** icon and then select **Library settings**. Click **More library settings**. 
+13. In the **Documents** page for the **Marketing** site, at the top right, select the **gear** (**Settings)** icon > **Library settings** > **More library settings**. 
 
-14. On the **Documents&gt;Settings** page, under **Permissions and Management**, select **Information Rights Management**. 
+14. On the **Documents & Settings** page, under **Permissions and Management**, select **Information Rights Management**. 
 
 15. On the **Information Rights Management Settings** page, select the **Restrict permissions on this library on download** checkbox. 
 

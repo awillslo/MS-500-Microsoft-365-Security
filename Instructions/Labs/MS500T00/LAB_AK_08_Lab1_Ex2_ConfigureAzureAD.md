@@ -46,7 +46,7 @@ You have now configured your tenant so that all users can enroll their clients t
 
 6. Below this field, in the **Selected** section click **No member selected**.
 
-7. In the **Members allowed to join devices** window, select **+Add**
+7. In the **Members allowed to join devices** window, select **+ Add**
 
 8. In the **Add members** pane on the right, select **Alex Wilber** , select **Select** at the bottom of the screen, and then select **Ok**.
 
@@ -65,7 +65,7 @@ You have changed the default settings for users to join their devices to your Az
 
 2. In the **Adatum Corporation – Overview** window, in the left section under **Manage,** select **Groups**.
 
-3. In the **Groups – All groups** window, in the details pane on the right, select **+New group** on the menu bar.
+3. In the **Groups – All groups** window, in the details pane on the right, select **+ New group** on the menu bar.
 
 4. In the **New Group** window, enter the following information:
 

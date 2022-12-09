@@ -30,9 +30,7 @@ Holly Dickson is concerned that some users in her organization may require educa
 	1. Click **Add 1 User** at the bottom. 
 	1. Click  **Next**.
 
-7. Leave the default settings on the **Assign training** screen. Click **Next**.
-
-8. On the **Landing page** screen, click **Next**.
+7. Leave the default settings on the **Exclude users**, **Assign training**, and **Landing page** screens. Click **Next**.
 
 9. On the **Select end user notification** screen, select **Microsoft default notification (recommended)**.
 
@@ -46,7 +44,7 @@ Holly Dickson is concerned that some users in her organization may require educa
 
 1.  Open a new browser window in InPrivate or incognito mode and browse to `https://office.com`.
 
-2.  Log in as the user Patti Fernandez **PattiF@M365xZZZZZZ.onmicrosoft.com** where ZZZZZZ is your specific Office 365 tenant. Patti's password is likely the same as the MOD administrator's password provided by your lab hosting providor.
+2.  Log in as the user Patti Fernandez **PattiF@M365xZZZZZZ.onmicrosoft.com** where ZZZZZZ is your specific Microsoft 365 tenant. Patti's password is likely the same as the MOD administrator's password provided by your lab hosting providor.
 
 3.  Click the Outlook icon to open Microsoft Outlook for Patti. You should see a spear phishing email that includes the details you just entered in the previous task.
 

@@ -29,13 +29,13 @@ The CTO is anxious to implement Smart Lockout because it will lock out the attac
 
 8. As you can see in the right pane, none of the smart lockout parameters have been defined. You are going to use the **Azure AD admin center** to assign these values.   <br/>
 
-9.  In **Microsoft Edge**, open a new browser tab and go to `https://portal.azure.com`.  Sign-in as Holly Dickson if you are not already signed in on another browswer tab. Search for **Azure Active Directory** and click **Azure Active Directory**. 
+9.  In **Microsoft Edge**, open a new browser tab and go to `https://portal.azure.com`.  Sign-in as Holly Dickson if you are not already signed in on another browser tab. Search for **Azure Active Directory** and click **Azure Active Directory**. 
 
 10. In the **Adatum Corporation | Overview** page, in the middle navigation pane under the **Manage** section, scroll down and select **Security**.
 
-11. In the **Security | Getting started** window, in the middle pane under the **Manage** section, select **Authentication Methods**.
+11. In the **Security | Getting started** window, on the left under **Manage** section, select **Authentication Methods**.
 
-12. In the **Authentication methods | Policies** page, in the middle pane under the **Manage** section, select **Password protection.**
+12. In the **Authentication methods | Policies** page, on the left under the **Manage**, select **Password protection.**
 
 13. In the **Authentication methods | Password protection** window, in the detail pane on the right, enter the following information:
 

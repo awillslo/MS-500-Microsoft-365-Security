@@ -19,11 +19,11 @@ If the device does not meet these requirement, the device should be marked as no
 
 #### Task 1: Create and apply compliance policy and enrollment restrictions
 
-1.  Sign in to **LON-CL1** as **ADATUM\\Administrator** with the password `XBo8MZiKFTstB6G`. 
+1.  Sign in to **LON-CL1** as **ADATUM\\Administrator** with the password `Pa55w.rd`. 
 
 2.  In Microsoft Edge, type `https://endpoint.microsoft.com` in the  address bar, and then press **Enter**. Sign in as as **admin\@yourtenant.onmicrosoft.com** with the default tenant password.
 
-3.  From the left navigation pane click **Devices**, in the overview pane scroll down under the **Policy** click **Compliance Policies**.
+3.  From the left navigation pane click **Devices**, in the overview pane scroll down under **Policy** click **Compliance Policies**.
 
 4.  On the **Compliance policies | Policies** blade, in the details pane click **+ Create Policy**.
 
@@ -50,15 +50,15 @@ If the device does not meet these requirement, the device should be marked as no
 
 13. From the left menu click **Devices**, then click **Enroll devices** under **Device enrollment** from the **Devices Overview**.
 
-14. On the **Enrollment devices | Windows enrollment** blade, click **Enrollment restrictions**.
+14. On the **Enrollment devices | Windows enrollment** blade, click **Enrollment device platform restrictions**.
 
-15. On the details pane, in the **Device Type Restrictions** section, on the **Default** line, click **All Users**.
+15. On the details pane, in the **Device platform restrictions** section, on the **Default** line, click **All Users**.
     
 16. On the **All Users** blade, click **Properties**. In the **Platform settings** section, click **Edit**.
 
 17. On the **Platforms settings** tab, in the **Platform** column, on the rows with **iOS/iPadOS** and **macOS**, click **Block**. Click **Review + save** and then click **Save**.
 
-18. Scroll left to the **Enroll devices | Enrollment restrictions** blade. In the **Device Limit Restrictions** section, click **All Users** and then click **Properties**.
+18. Scroll left to the **Enroll devices | Enrollment restrictions** blade. In the **Enrollment device limit restrictions** section, click **All Users and all devices** and then click **Properties**.
 
 19. In the **Device limit** section, click **Edit**, then change the value to **3**.  
 
