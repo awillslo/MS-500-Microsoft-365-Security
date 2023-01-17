@@ -30,7 +30,7 @@ In your role as Holly Dickson, Adatum’s Security Administrator, you have been 
 
 1. When the Virtual Machine opens, it opens with the Client PC VM (**LON-CL1**). You need to switch to the Domain Controller VM (**LON-DC1**).
 
-2. Log on as **ADATUM\Administrator** with the password `XBo8MZiKFTstB6G`. 
+2. Log on as **ADATUM\Administrator** with the password `Pa55w.rd`. 
 
 3. If you receive a **Networks** warning message asking if you want this PC to be discoverable by other PCs and devices on this network, select **No.**
 
