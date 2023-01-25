@@ -50,13 +50,13 @@ In this task, you will add the URL **http://tailspintoys.com** to the company-wi
 
     - Select the check box next to **Apply safe links to email messages sent within the organization**.
 
-12. Under **Teams** select **On: Safe Links checks a list of known, malicious links when users click links in Microsoft Teams. URLs are not rewritten**. Click **Next**.
+    - Under **Teams** select **On: Safe Links checks a list of known, malicious links when users click links in Microsoft Teams. URLs are not rewritten**. Click **Next**.
 
-13. On the **Notification** pane, leave the default notification text selected. Click **Next**.
+12. On the **Notification** pane, leave the default notification text selected. Click **Next**.
 
-14. On the **Review** pane, select **Submit** > **Done**.
+13. On the **Review** pane, select **Submit** > **Done**.
 
-15. Leave the Microsoft 365 Security & Compliance tab open for use in a later task.
+14. Leave the Microsoft 365 Security & Compliance tab open for use in a later task.
 
 ### Task 2 – Validate the Safe Links Policy
 
